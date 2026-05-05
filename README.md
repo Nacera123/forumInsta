@@ -115,5 +115,3 @@ HGETALL post:4
 ```
 
 ---
-
-Tu veux qu'on passe à l'implémentation en code maintenant ?
