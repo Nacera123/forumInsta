@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum InstaStyle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #667eea;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        
+        .feature p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .status {
+            background: #e8f5e9;
+            border: 2px solid #4caf50;
+            color: #2e7d32;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .status-icon {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Forum InstaStyle</h1>
+        <p class="subtitle">Plateforme de discussion avec Redis</p>
+        
+        <div class="status">
+            <span class="status-icon">✅</span>
+            <strong>Application en cours d'exécution</strong>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>📝 Forums</h3>
+                <p>Créez et explorez des forums de discussion</p>
+            </div>
+            <div class="feature">
+                <h3>💬 Messages</h3>
+                <p>Postez et partagez vos pensées</p>
+            </div>
+            <div class="feature">
+                <h3>👥 Utilisateurs</h3>
+                <p>Connectez-vous et gérez votre profil</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Redis</h3>
+                <p>Cache haute performance en temps réel</p>
+            </div>
+        </div>
+        
+        <p style="color: #999; margin-top: 30px; font-size: 0.9em;">
+            Port: <strong>8080</strong> | Redis: <strong>localhost:6379</strong>
+        </p>
+    </div>
+</body>
+</html>
